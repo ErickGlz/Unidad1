@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Alumnos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Control de Alumnos</h1>
+        <input type="text" id="nombreAlumno" placeholder="Nombre del alumno">
+      
+        <button id="btnAgregar" class="agregar">Agregar</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Calificación</th>
+                    <th>Estatus</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="lista"></tbody>
+        </table>
+        <div id="promedio">Promedio: 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
